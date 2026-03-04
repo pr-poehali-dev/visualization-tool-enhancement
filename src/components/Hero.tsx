@@ -27,11 +27,14 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          СКАЧИ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Запишись на тренировку и почувствуй свободу верховой езды
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 uppercase text-sm tracking-wide font-semibold hover:bg-transparent hover:text-white border border-white transition-all duration-300">
+          Записаться на тренировку
+        </button>
       </div>
     </div>
   );
